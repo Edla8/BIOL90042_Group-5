@@ -1,0 +1,4 @@
+load("/Users/zeglinski.k/Desktop/teaching/final project/data/group5_data/gait.Rda")
+ls
+ls()
+gait_data
