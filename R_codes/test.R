@@ -52,7 +52,7 @@ dge
    labs(
      title = "Case vs Control PRS",
      x = "experimental status",
-     y = "Count",
+     y = "PRS",
    )
  
  # Now we do statistical testing
