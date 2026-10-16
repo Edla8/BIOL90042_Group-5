@@ -51,7 +51,7 @@ dge
  ggplot(patient_prs, aes(x = status, y = PRS)) + geom_boxplot() + geom_point(position = position_jitter(width = 0.2)) + 
    labs(
      title = "Case vs Control PRS",
-     x = "experimental status",
+     x = "Treatment Group",
      y = "PRS",
    )
  
