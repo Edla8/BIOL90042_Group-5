@@ -5,7 +5,9 @@ load("data/rnaseq_gene_info.Rda")
 load("data/drugscreen.Rda")
 load("data/gait.Rda")
 
-
+###########################################
+# Population Genetics
+##########################################
 # Step 1: Data Wrangling & Polygenic Risk Score (PRS) Calculation
 # Reshape genotype data from wide to long format using pivot_longer()
 # and join with GWAS top hits to map allele effect sizes (beta values) by locus
