@@ -5,10 +5,6 @@ load("data/rnaseq_gene_info.Rda")
 load("data/drugscreen.Rda")
 load("data/gait.Rda")
 
-install.packages("car")
-library(car)
-
-dge
 
 # Step 1: Data Wrangling & Polygenic Risk Score (PRS) Calculation
 # Reshape genotype data from wide to long format using pivot_longer()
